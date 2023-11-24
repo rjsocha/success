@@ -29,8 +29,6 @@ wyga/success:latest
 
 ## Examples
 
-Check out this project https://github.com/rjsocha/wyga-volume for alternative usage.
-
 ### Setting sticky bit on volume (Dockerfile.sticky)
 
 ```
@@ -78,4 +76,12 @@ services:
 Run it as:
 ```
   docker compose run --rm storage-setup
+```
+
+## Alternative NOP
+
+```
+  ...
+  command: ["/sbin/docker-init", "--version"]
+  init: true
 ```
