@@ -60,6 +60,8 @@ docker buildx build --provenance false --platform ${PLATFORM} ${OUTPUT} --pull -
 
 ### Usage
 
+Check out this project https://github.com/rjsocha/wyga-volume for alternative usage.
+
 For example via docker compose:
 
 ```
@@ -82,6 +84,6 @@ Run it as:
 
 ```
   ...
-  command: ["/sbin/docker-init", "--version"]
+  command: /sbin/docker-init --version
   init: true
 ```
