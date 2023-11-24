@@ -29,6 +29,8 @@ wyga/success:latest
 
 ## Examples
 
+Check out this project https://github.com/rjsocha/wyga-volume for alternative usage.
+
 ### Setting sticky bit on volume (Dockerfile.sticky)
 
 ```
